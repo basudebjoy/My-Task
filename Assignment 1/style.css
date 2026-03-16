@@ -1,0 +1,378 @@
+/* ===== Global Reset ===== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#f3f3f3;
+    font-family:"Fira Sans", sans-serif;
+}
+
+/* ===== Navigation ===== */
+
+.top-nav{
+    padding:30px 150px;
+}
+
+.nav-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.logo-title{
+    font-size:32px;
+    font-weight:700;
+    color:#111;
+}
+
+.login-btn{
+    padding:14px 28px;
+    font-size:17px;
+    font-weight:600;
+    border-radius:8px;
+    border:1px solid #006a50;
+    background:white;
+    color:#006a50;
+    cursor:pointer;
+    transition:.4s;
+}
+
+.login-btn:hover{
+    background:#38c29a;
+    color:white;
+}
+
+/* ===== Hero Section ===== */
+
+.hero-area{
+    margin:0 150px;
+}
+
+.hero-wrapper{
+    background:#c7e7d8;
+    border-radius:22px;
+    padding:90px 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.hero-sub{
+    font-size:22px;
+    color:rgba(0,0,0,0.5);
+}
+
+.hero-text h1{
+    font-size:55px;
+    margin-top:15px;
+    font-weight:700;
+    color:#111;
+}
+
+.hero-btn{
+    margin-top:25px;
+    padding:16px 34px;
+    border:none;
+    border-radius:8px;
+    background:#006a50;
+    color:white;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.4s;
+}
+
+.hero-btn:hover{
+    background:#1cc54a;
+}
+
+/* ===== Future Vision ===== */
+
+.future-section{
+    margin:90px 150px;
+}
+
+.section-title{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.section-desc{
+    font-size:16px;
+    color:rgba(0,0,0,.65);
+    margin-bottom:35px;
+}
+
+.card-wrapper{
+    display:flex;
+    gap:25px;
+}
+
+.vision-card{
+    background:#e3ecff;
+    padding:30px;
+    border-radius:15px;
+}
+
+.green-card{
+    background:#d6f1e4;
+}
+
+.blue-card{
+    background:#f6edcc;
+}
+
+.vision-card h3{
+    font-size:20px;
+    margin:12px 0;
+}
+
+.vision-card p{
+    font-size:15px;
+    color:#555;
+    margin-bottom:20px;
+}
+
+.card-btn{
+    padding:10px 18px;
+    border:none;
+    border-radius:6px;
+    background:#4d87f5;
+    color:white;
+    cursor:pointer;
+}
+
+.green-card .card-btn{
+    background:#07a65e;
+}
+
+.blue-card .card-btn{
+    background:#ffc53b;
+}
+
+/* ===== Quote Section ===== */
+
+.quote-area{
+    margin:80px 150px;
+}
+
+.quote-box{
+    background:white;
+    padding:40px 25px;
+    border-radius:15px;
+}
+
+.quote-text{
+    font-size:16px;
+    color:#444;
+    margin-bottom:10px;
+}
+
+.quote-box h4{
+    font-size:20px;
+}
+
+.quote-role{
+    font-size:15px;
+    color:#666;
+}
+
+/* ===== News Intro ===== */
+
+.news-intro{
+    margin:80px 150px;
+}
+
+.news-intro h1{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.news-intro p{
+    color:#666;
+}
+
+/* ===== News Cards ===== */
+
+.news-section{
+    margin:20px 150px;
+}
+
+.news-card{
+    display:flex;
+    gap:35px;
+    background:white;
+    padding:35px;
+    border-radius:20px;
+    margin-bottom:25px;
+}
+
+.reverse{
+    flex-direction:row-reverse;
+}
+
+.news-img img{
+    border-radius:18px;
+}
+
+.news-info h2{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.news-meta{
+    display:flex;
+    gap:15px;
+    font-size:14px;
+    color:#666;
+    margin:15px 0;
+}
+
+.news-info p{
+    color:#555;
+}
+
+.news-btn{
+    margin-top:25px;
+    padding:12px 24px;
+    border-radius:7px;
+    border:none;
+    background:#006a50;
+    color:white;
+    cursor:pointer;
+}
+
+/* ===== Donation Section ===== */
+
+.donation-section{
+    margin:80px 150px;
+    text-align:center;
+}
+
+.donation-section h1{
+    font-size:40px;
+}
+
+.donation-section p{
+    margin:15px 0 25px;
+    color:#666;
+}
+
+.donation-buttons{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.donation-buttons button{
+    padding:25px 35px;
+    font-size:28px;
+    font-weight:700;
+    border-radius:14px;
+    border:1px solid #d7eadf;
+    background:#f2f2f2;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.donation-buttons button:hover{
+    background:#4d87f5;
+    color:white;
+}
+
+.highlight{
+    background:#c7e7d8 !important;
+}
+
+.custom-amount{
+    margin-top:30px;
+}
+
+.custom-amount input{
+    width:70%;
+    height:60px;
+    text-align:center;
+    border:none;
+    outline:none;
+    font-size:16px;
+}
+
+.donate-btn{
+    margin-top:25px;
+    padding:15px 35px;
+    background:#006a50;
+    border:none;
+    color:white;
+    font-size:17px;
+    border-radius:8px;
+}
+
+/* ===== Newsletter ===== */
+
+.newsletter{
+    margin:90px 150px;
+    padding:80px 40px;
+    background:#c7e7d8;
+    border-radius:20px;
+    text-align:center;
+}
+
+.newsletter h1{
+    font-size:38px;
+}
+
+.newsletter p{
+    margin:20px 0;
+    color:#555;
+}
+
+.subscribe-form{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.subscribe-form input{
+    width:500px;
+    padding:15px;
+    border:none;
+    border-radius:8px 0 0 8px;
+}
+
+.subscribe-form button{
+    padding:15px 25px;
+    border:none;
+    background:#006a50;
+    color:white;
+    border-radius:0 8px 8px 0;
+    cursor:pointer;
+}
+
+.newsletter small{
+    display:block;
+    margin-top:20px;
+}
+
+/* ===== Footer ===== */
+
+.site-footer{
+    text-align:center;
+}
+
+.site-footer h2{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.site-footer hr{
+    margin:30px 150px;
+}
+
+.social-icons img{
+    padding:10px;
+}
